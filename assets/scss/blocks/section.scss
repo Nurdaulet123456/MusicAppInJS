@@ -1,0 +1,72 @@
+.section {
+    padding-top: 100px;
+
+    .section__title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .people {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        
+    }
+}
+
+.people__block {
+    width: 100%;
+    max-width: 255px;
+    background: radial-gradient(2464.13% 850.69% at 100% 6.65%, #BB82DB 0%, #636DC1 19.3%, #1D0F35 100%);
+    border-radius: $border-radius;
+    padding: 20px 0;
+
+    img {
+        margin: 0 auto;
+    }
+
+    .people__name {
+        text-align: center;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: bold;
+
+        margin-bottom: 6.8rem;
+
+    }
+
+    .people__price {
+        text-align: center;
+
+        margin-bottom: 2rem;
+        font-weight: bold;
+        font-size: 1.4rem;
+
+        span {
+            font-weight: normal;
+        }
+    }
+
+    .people__btn {
+        display: inline-block;
+        text-align: center;
+        padding: 14px 46px;
+        margin-left: 35px;
+        border: none;
+        border-radius: 3.7em;
+
+        background-color: white;
+
+
+        span {
+            background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+
+            font-weight: bold;
+            font-size: 1.6rem;
+        }
+
+    }
+}

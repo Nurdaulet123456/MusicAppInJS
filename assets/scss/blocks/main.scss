@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 593px;
+
+    background: #37013E url("../img/Rectangle.jpg") no-repeat center;
+    background-size: cover;
+
+    .main__title {
+        text-align: center;
+        font-size: 4.6rem;
+        font-weight: bold;
+        margin-bottom: 1.2rem;
+    }
+
+    .main__subtitle {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 4rem;
+    }
+
+    .main__btn {
+        display: inline-block;
+        text-align: center;
+        border: none;
+        background-image: $btnBack;
+        padding: 14px 40px;
+        border-radius: 46px;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        cursor: pointer;
+    }
+}
